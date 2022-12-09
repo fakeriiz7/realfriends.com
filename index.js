@@ -24,7 +24,7 @@ client.on("ready", () => {
 app.get("/", async (req, res) => {
   var guild = client.guilds.cache.get(process.env.GUILD_ID)
   var info = []
-  let ids = ["973587677997858907", "1024148943275311144", "1042478708629442690"] //lista dos ids dos usuarios
+  let ids = ["973587677997858907", "1024148943275311144", "1042478708629442690"] //list of user ids
   for (var i = 0; i < ids.length; i++) {
     await client.users.fetch(ids[i]).then((u) => {
       info.push(u)
@@ -38,6 +38,6 @@ app.get("/", async (req, res) => {
 })
 
 app.listen(process.env.PORT, () => {
-  console.log('Express iniciado.')
+  console.log('Express started.')
 });
 client.login(process.env.TOKEN)
