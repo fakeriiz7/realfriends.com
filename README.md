@@ -3,7 +3,7 @@
 # realfriends.com
 
 
-<img src="https://cdn.discordapp.com/attachments/1049842525906665503/1050610584804143124/image.png" alt="realfriends.com">
+<img src="https://cdn.discordapp.com/attachments/1049842525906665503/1050614479542554684/image.png" alt="realfriends.com">
 
 > A repository for you who want to create a website for your friends.
 
